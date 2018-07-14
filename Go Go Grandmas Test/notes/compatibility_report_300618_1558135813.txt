@@ -1,0 +1,52 @@
+Converting GML script: ${project_dir}\objects\obj_Player\Create_0.gml
+Converted description /// @description Initial Variables
+
+Converting GML script: ${project_dir}\objects\obj_Player\Alarm_0.gml
+Converted description /// @description Check if players hp is greater than 0
+
+Converting GML script: ${project_dir}\objects\obj_Player\Step_0.gml
+Converted description /// @description Movement Code
+
+Converting GML script: ${project_dir}\objects\obj_Player\Collision_a4ff9bce-6d11-40b7-82cb-b8111e1bb064.gml
+Converted description /// @description Collision with Enemy
+
+Converting GML script: ${project_dir}\objects\obj_Player\KeyPress_90.gml
+Converted description /// @description Jump Key
+
+Converting GML script: ${project_dir}\objects\obj_Player\KeyPress_88.gml
+Converted description /// @description Punch Key
+
+Converting GML script: ${project_dir}\objects\obj_Player\KeyPress_67.gml
+Converted description /// @description Kick Key
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Create_0.gml
+Converted description /// @description Initial Variables
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Alarm_2.gml
+Converted description /// @description Check if hp is greater than 0
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Alarm_1.gml
+Converted description /// @description Random Attack
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Alarm_0.gml
+Converted description /// @description Random Movement Code
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Step_0.gml
+Converted description /// @description Movement Code
+
+Converting GML script: ${project_dir}\objects\obj_Enemy\Collision_b9daffaa-a216-4f1a-8ff4-cef444af7bb7.gml
+Converted description /// @description Collision with the Player
+
+Converting GML script: ${project_dir}\rooms\rm_03\RoomCreationCode.gml
+Converted builtin - line 1: background_alpha = .25 -> __background_set( e__BG.Alpha, 0, .25 )
+
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'
